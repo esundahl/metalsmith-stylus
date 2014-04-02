@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-stylus",
+  "version": "0.1.0",
+  "description": "metalsmith stylus plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/esundahl/metalsmith-stylus"
+  },
+  "keywords": [
+    "metalsmith",
+    "stylus"
+  ],
+  "author": "Erik Sundahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esundahl/metalsmith-stylus/issues"
+  },
+  "homepage": "https://github.com/esundahl/metalsmith-stylus",
+  "dependencies": {
+    "stylus": "^0.42.3",
+    "minimatch": "^0.2.14"
+  }
+}
