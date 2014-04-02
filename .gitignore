@@ -8,11 +8,11 @@ lib-cov
 *.gz
 *.DS_Store
 *.swp
- 
+
 pids
 logs
 results
- 
+
 node_modules
 componentstest
-test/
+test/fixtures/**/build
