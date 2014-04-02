@@ -4,7 +4,7 @@
   "description": "metalsmith stylus plugin",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "dependencies": {
     "stylus": "^0.42.3",
     "minimatch": "^0.2.14"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "metalsmith": "^0.5.0",
+    "assert-dir-equal": "^1.0.1"
   }
 }
