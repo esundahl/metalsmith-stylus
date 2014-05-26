@@ -42,4 +42,6 @@ metalsmith.use(stylus());
 
 ## Options
 
-None yet
+* ``paths`` - Pass an array of paths to stylus for ``@include`` and ``@require``.
+* ``src`` - Use a different source folder. The root of the specified folder will map to the root
+  of the output folder.
