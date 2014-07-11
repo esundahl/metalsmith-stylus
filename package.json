@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/esundahl/metalsmith-stylus",
   "dependencies": {
-    "stylus": "^0.42.3",
-    "minimatch": "^0.2.14"
+    "stylus": "^0.47.1",
+    "minimatch": "^0.3.0"
   },
   "devDependencies": {
-    "mocha": "^1.18.2",
-    "metalsmith": "^0.5.0",
+    "mocha": "^1.20.1",
+    "metalsmith": "^0.8.1",
     "assert-dir-equal": "^1.0.1"
   }
 }
