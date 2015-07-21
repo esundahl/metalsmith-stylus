@@ -1,7 +1,7 @@
 metalsmith-stylus
 ===============
 [![Build Status](https://travis-ci.org/esundahl/metalsmith-stylus.svg?branch=master)](https://travis-ci.org/esundahl/metalsmith-stylus)
-![Dependency Status](https://david-dm.org/esundahl/metalsmith-stylus.png)
+[![Dependency Status](https://david-dm.org/esundahl/metalsmith-stylus.png)](https://david-dm.org/esundahl/metalsmith-stylus)
 
 A [Stylus](http://learnboost.github.io/stylus/) plugin for Metalsmith.
 

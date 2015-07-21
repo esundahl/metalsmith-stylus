@@ -22,8 +22,8 @@
   "homepage": "https://github.com/esundahl/metalsmith-stylus",
   "dependencies": {
     "nib": "^1.0.3",
-    "stylus": "^0.47.1",
-    "minimatch": "^0.3.0"
+    "stylus": "^0.52.0",
+    "minimatch": "^2.0.9"
   },
   "devDependencies": {
     "mocha": "^1.20.1",
