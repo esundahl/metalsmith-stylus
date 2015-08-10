@@ -1,7 +1,7 @@
 metalsmith-stylus
 ===============
 [![Build Status](https://travis-ci.org/esundahl/metalsmith-stylus.svg?branch=master)](https://travis-ci.org/esundahl/metalsmith-stylus)
-![Dependency Status](https://david-dm.org/esundahl/metalsmith-stylus.png)
+[![Dependency Status](https://david-dm.org/esundahl/metalsmith-stylus.png)](https://david-dm.org/esundahl/metalsmith-stylus)
 
 A [Stylus](http://learnboost.github.io/stylus/) plugin for Metalsmith.
 
@@ -42,4 +42,22 @@ metalsmith.use(stylus());
 
 ## Options
 
-None yet
+All option keys will be passed to stylus' [`set`](https://learnboost.github.io/stylus/docs/js.html#setsetting-value) method, except [`define`](https://learnboost.github.io/stylus/docs/js.html#definename-node) and [`use`](https://learnboost.github.io/stylus/docs/js.html#usefn).
+
+To use stylus plug-ins like [nib](http://tj.github.io/nib/) or [autoprefixer](https://github.com/jenius/autoprefixer-stylus), add them as array to `use`:
+
+```js
+var stylus = require('metalsmith-stylus');
+var nib = require('nib');
+
+metalsmith.use(stylus({
+	// Set stylus output to compressed
+	compress: true,
+	// Use the 'nib' plug-in
+	use: [nib()],
+	// Inline images as base64
+	define: {
+		url: stylus.url()
+	}
+}));
+```
