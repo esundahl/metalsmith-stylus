@@ -1,5 +1,7 @@
 metalsmith-stylus
 ===============
+
+[![Join the chat at https://gitter.im/esundahl/metalsmith-stylus](https://badges.gitter.im/esundahl/metalsmith-stylus.svg)](https://gitter.im/esundahl/metalsmith-stylus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/esundahl/metalsmith-stylus.svg?branch=master)](https://travis-ci.org/esundahl/metalsmith-stylus)
 [![Dependency Status](https://david-dm.org/esundahl/metalsmith-stylus.png)](https://david-dm.org/esundahl/metalsmith-stylus)
 
